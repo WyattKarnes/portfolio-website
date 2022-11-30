@@ -1617,3 +1617,9 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+
+iframe {
+	width: 100%;
+	display: block;
+	margin: auto;
+}
