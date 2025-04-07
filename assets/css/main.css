@@ -574,17 +574,18 @@
 		}
 /* ImageIcon */
 
-.ImageIcon {
+.imageicon {
 	
-	display: inline-block;
-	width: 115px;
-	height: 115px;
+	display: block;
+	width: 5.4rem;
+	height: 5.4rem;
 	border-radius: 50%;
   
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	
+	margin: auto;
   }
 
 /* Icon */
@@ -1373,10 +1374,6 @@
 			#header .content p br {
 				display: none;
 			}
-			.ImageIcon{
-				width: 85px;
-				   height: 85px;
-			}
 
 		}
 
@@ -1396,10 +1393,7 @@
 				height: 4.75rem;
 				line-height: 4.75rem;
 			}
-				.ImageIcon{
-					width: 65px;
-   					height: 65px;
-				}
+				
 				#header .logo .icon:before {
 					font-size: 1.75rem;
 				}
@@ -1410,6 +1404,11 @@
 
 			#header .content p {
 				line-height: 1.875;
+			}
+
+			.imageicon {
+				width: 4.65rem;
+				height: 4.65rem;
 			}
 
 		}
@@ -1452,11 +1451,6 @@
 				#header nav.use-middle:after {
 					display: none;
 				}
-				.ImageIcon{
-					width: 62px;
-   					height: 62px;
-				}
-
 		}
 
 /* Main */
